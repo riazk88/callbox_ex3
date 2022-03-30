@@ -27,21 +27,17 @@
         </ul>
     </div>
     <div class="container">
+      <form action="contact.html" method="post" id="signup">
         <h1>Contact Us</h1>
 
         <div class="txtb">
-            <label>Full Name: </label>
-            <input type="text" name="" value="" placeholder="Enter Your Name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
         </div>
 
         <div class="txtb">
-            <label>Email: </label>
-            <input type="email" name="" value="" placeholder="Enter Your Email">
-        </div>
-
-        <div class="txtb">
-            <label>Phone Number: </label>
-            <input type="text" name="" value="" placeholder="Enter Your Number">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email">
         </div>
 
         <div class="txtb">
@@ -49,7 +45,10 @@
             <textarea></textarea>
         </div>
         <a class="btn">Send</a>
+      </form>
     </div>
 </body>
+
+<script src="index.js"></script>
 
 </html>
