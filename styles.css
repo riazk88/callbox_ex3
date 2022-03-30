@@ -97,19 +97,19 @@ li.dropdown {
     text-align: center;
 }
 
-.txtb {
+.field {
     margin: 8px 0;
     padding: 12px 18px;
     color: gold;
 }
 
-.txtb label {
+.field label {
     display: block;
     text-align: left;
     color: gold;
 }
 
-.txtb input, .txtb textarea {
+.field input, .field textarea {
     width: 100%;
     margin-top: 6px;
     font-size: 18px;
